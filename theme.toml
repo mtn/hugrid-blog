@@ -1,0 +1,10 @@
+name = "Hugrid-Blog"
+license = "MIT License"
+licenselink = "//github.com/mtn/hugrid-blog/blob/master/LICENSE.md"
+description = "Hugrid-blog is a hugo blog theme that fuses Hugrid and Hemingway"
+homepage = "//github.com/mtn/hugrid-blog"
+tags = ["responsive", "grid", "blog", "cards", "simple", "google analytics", "disqus"]
+
+[author]
+  name = "mtn"
+  homepage = "//github.com/mtn/hugrid-blog"
