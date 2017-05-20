@@ -1,0 +1,8 @@
+languageCode = "en-us"
+title = "Example Site"
+baseURL = "http://example.org/"
+theme = "hugrid-blog"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
