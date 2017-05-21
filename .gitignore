@@ -5,3 +5,6 @@
 # exampleSite
 exampleSite/public
 exampleSite/themes
+
+#misc
+*.swp
