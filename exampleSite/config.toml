@@ -5,4 +5,4 @@ theme = "hugrid-blog"
 
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "public"
+publishdir = "docs"
