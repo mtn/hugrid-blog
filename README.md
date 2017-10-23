@@ -1,6 +1,6 @@
 # Hugridway
 
-Hugridway is a [hugo](https://github.com/spf13/hugo) theme that allows for easy generation of rich, grid-styled blogs. It is a derivative work, built on top of the original [hugrid](https://github.com/aerohub/hugrid) and [hemingway2](https://github.com/beli3ver/hemingway2).
+Hugridway is a [hugo](https://github.com/spf13/hugo) theme that allows for easy generation of rich, grid-styled blogs. It is a derivative work, built on top of the original [hugrid](https://github.com/aerohub/hugrid) and (defunct) [hemingway2](https://github.com/beli3ver/hemingway2).
 
 ## Getting Started
 
