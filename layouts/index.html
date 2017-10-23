@@ -5,20 +5,22 @@
     </head>
     <body>
         <div class="container">
-                {{ partial "header.html" . }}
+            {{ partial "header.html" . }}
             <div class="main">
                 <ul id="og-grid" class="og-grid">
                     {{ range sort .Paginator.Pages }}
                     <li>
-                        <a href="{{.Permalink}}">
-                            <img src="{{.Params.thumb}}" alt="{{.Parmas.alt}}"/>
+                        <a href="{{ .Permalink }}">
+                            <!-- TODO replace image -->
+                            <img src="{{ .Params.thumb }}" alt="{{ .Params.alt }}"/>
                         </a>
                     </li>
                     {{ end }}
                 </ul>
-                {{ partial "footer.html" . }}
             </div>
+            {{ partial "footer.html" . }}
         </div>
         {{ partial "scripts.html" . }}
     </body>
 </html>
+

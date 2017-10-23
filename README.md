@@ -7,8 +7,7 @@ Hugridway is a [hugo](https://github.com/spf13/hugo) theme that allows for easy 
 Clone this repository to your hugo site themes directory. If you don't know what this means, take a look at Hugo's [quickstart guide](https://gohugo.io/overview/quickstart/).
 
 ```
-cd themes
-git clone https://github.com/beli3ver/hemingway2.git
+cd themes && git clone https://github.com/uncommonhacks/hugridway.git
 ```
 
 ## Configuration
