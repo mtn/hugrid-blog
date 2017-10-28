@@ -19,6 +19,7 @@ title = "Site title"
 baseURL = "http://baseUrl.org/"
 theme = "hugridway"
 
+[params]
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "docs"

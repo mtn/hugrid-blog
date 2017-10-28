@@ -1,9 +1,13 @@
-<section class="section">
-  <div class="container has-text-centered">
-    <p>{{ with .Site.Params.footertext }}{{ . | markdownify }}{{ end }}</p>
-    <p>{{ .Site.Copyright | safeHTML }}</p>
-  </div>
-</section>
+<div id="nav-bar">
+      <span class="nav logo"><img class="mini-logoz" src="{{ .Site.BaseURL }}images/full/logo.png"/>ncommon</span>
+      <a class="nav" href="mailto:sponsorship@uncommonhacks.com">sponsor</a>
+      <div class="social-media">
+        <a class="no-underline" href="http://facebook.com/uncommonhacks" target="_blank"> <img class="media facebook" src="img/facebook.svg"/> </a>
+        <a class="no-underline" href="http://twitter.com/uncommonhacks" target="_blank"> <img class="media twitter" src="img/twitter.svg"/> </a>
+        <a class="no-underline" href="http://m.me/uncommonhacks" target="_blank"> <img class="media messenger" src="img/messenger.svg"/> </a>
+        <a class="no-underline" href="mailto:celery@uncommonhacks.com"> <img class="media email" src="img/email.svg"/> </a>
+      </div>
+</div>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
 {{ range .Site.Params.highlight.languages }}
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/{{ . }}.min.js"></script>
