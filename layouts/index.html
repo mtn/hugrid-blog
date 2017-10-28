@@ -9,11 +9,11 @@
             {{ partial "header.html" . }}
             <div class="main">
                 <ul id="og-grid" class="og-grid">
-                    {{ range sort .Paginator.Pages }}
+                    {{ range $ind, $elem := .Paginator.Pages }}
                     <li>
-                        <a href="{{ .Permalink}}">
-                            <div class="grid-elem">
-                                {{ .Title }}
+                        <a href="{{ $elem.Permalink }}">
+                            <div class="grid-elem" style="background-color: {{ index .Site.Params.palette $ind }}">
+                                {{ $elem.Title }}
                             </div>
                         </a>
                     </li>

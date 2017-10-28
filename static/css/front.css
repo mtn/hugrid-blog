@@ -1,5 +1,10 @@
+body {
+    background-color: #EF6398 !important;
+}
+
 .grid-elem {
     height: 80px;
     width: 80px;
     background-color: black;
 }
+
