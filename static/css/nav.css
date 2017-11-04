@@ -7,7 +7,7 @@
 .nav {
     font-family: Montserrat, sans-serif;
     text-decoration: none;
-    display:inline;
+    display: inline;
     font-size: 100%;
     font-weight: 300;
     color: white;
@@ -31,17 +31,12 @@
 .social-media {
     right: 20px;
     position: absolute;
+    display: flex;
 }
 
 .logo {
     font-family: "Beef'd";
     font-size: 1px;
-    display: none;
-}
-
-.social-media {
-    right: 20px;
-    position: absolute;
 }
 
 .media {
