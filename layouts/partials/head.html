@@ -6,7 +6,15 @@
         <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
         <meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}" />
         <meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}" />
-        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default.css" />
-        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/component.css" />
-        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/front.css" />
-        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/nav.css" />
+        <style>
+            {{ partial "css/nav.css" . | safeCSS }}
+        </style>
+        <style>
+            {{ partial "css/front.css" . | safeCSS }}
+        </style>
+        <style>
+            {{ partial "css/component.css" . | safeCSS }}
+        </style>
+        <style>
+            {{ partial "css/default.css" . | safeCSS }}
+        </style>

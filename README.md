@@ -18,14 +18,15 @@ languageCode = "en-us"
 title = "Site title"
 baseURL = "http://baseUrl.org/"
 theme = "hugridway"
-
-[params]
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "docs"
+
+[params]
+TODO
 ```
 
-An exhaustive list of configurations options is included in the [wiki](https://github.com/uncommonhacks/hugridway/wiki).
+For an example, refer to the [Uncommon Hacks Blog](https://github.com/uncommonhacks/blog).
 
 
 ## Building
