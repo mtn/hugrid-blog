@@ -12,6 +12,7 @@
     font-weight: 300;
     color: white;
     margin-right: 20px;
+    margin-left: 60px;
 }
 
 #nav-bar{
@@ -23,18 +24,13 @@
     display: flex;
     align-items: center;
     padding: 0 20px;
-    z-index: 1000;
 }
 
 .social-media {
-    right: 20px;
+    right: 60px;
+    bottom: 10px;
     position: absolute;
     display: flex;
-}
-
-.logo {
-    font-family: "Beef'd";
-    font-size: 1px;
 }
 
 .media {
