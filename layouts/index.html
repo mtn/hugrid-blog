@@ -2,22 +2,23 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     </head>
     <body>
         <div class="container">
-            <div class="main">
-                <ul id="og-grid" class="og-grid">
+            <span class="uncommon">UNCOMMON</span>
+                <ul id="" class="main">
                     {{ range $ind, $elem := .Paginator.Pages }}
                     <li>
                         <a href="{{ $elem.Permalink }}">
                             <div class="grid-elem" style="background-color: {{ index .Site.Params.palette $ind }}">
-                                {{ $elem.Title }}
+                                <span class="title">{{ $elem.Title }}</span>
+                                <span class="summary">{{ .Summary | plainify | safeHTML }}</span>
                             </div>
                         </a>
                     </li>
                     {{ end }}
                 </ul>
-            </div>
         </div>
         {{ partial "footer.html" . }}
         {{ partial "scripts.html" . }}
